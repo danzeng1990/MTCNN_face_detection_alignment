@@ -5,8 +5,8 @@ imglist=importdata('imglist.txt');
 minsize=20;
 
 %path of toolbox
-caffe_path='E:/matlab';
-pdollar_toolbox_path='E:/matlab/edges-master/toolbox-master'
+caffe_path='F:\DeepLearning\caffe\matlab';
+pdollar_toolbox_path='F:\DanTools\toolbox-master'
 caffe_model_path='./model'
 addpath(genpath(caffe_path));
 addpath(genpath(pdollar_toolbox_path));
